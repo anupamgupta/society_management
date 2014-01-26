@@ -1,0 +1,7 @@
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\bin\Debug\SocietyManager.Core.dll
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\bin\Debug\SocietyManager.Core.pdb
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\obj\Debug\SocietyManager.Core.dll
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\obj\Debug\SocietyManager.Core.pdb
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\obj\Debug\SocietyManager.Core.Strings.resources
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\obj\Debug\SocietyManager.Core.csproj.GenerateResource.Cache
+E:\VisualStudio2012Projects\MVC4\SocietyManager\SocietyManager.Core\obj\Debug\SocietyManager.Core.csprojResolveAssemblyReference.cache

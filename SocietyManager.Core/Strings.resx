@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accounts" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="Account_ActivationMessage" xml:space="preserve">
+    <value>Thank you, your account has been activated.</value>
+  </data>
+  <data name="Account_ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Account_ConfirmDeleteFormatString" xml:space="preserve">
+    <value>Are you sure you want to delete the account for {0}? </value>
+  </data>
+  <data name="Account_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Account_ConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="Account_Create" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="Account_CredentialsSent" xml:space="preserve">
+    <value>The account has been created and the credentials have been sent to the user.</value>
+  </data>
+  <data name="Account_EmailAlreadyExists" xml:space="preserve">
+    <value>Email address already exists.</value>
+  </data>
+  <data name="Account_EmailUnknown" xml:space="preserve">
+    <value>The email address specified is unknown.</value>
+  </data>
+  <data name="Account_ForgotPassword" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="Account_ForgotUsername" xml:space="preserve">
+    <value>Forgot Username</value>
+  </data>
+  <data name="Account_ForgotUsernameEmailSent" xml:space="preserve">
+    <value>An email has been sent to you with your username. </value>
+  </data>
+  <data name="Account_InvalidPassword" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="Account_InvalidUsername" xml:space="preserve">
+    <value>Invalid username</value>
+  </data>
+  <data name="Account_LoginFailure" xml:space="preserve">
+    <value>Login was unsuccessful. Please correct the errors and try again.</value>
+  </data>
+  <data name="Account_LoginSiteNameFormatString" xml:space="preserve">
+    <value>via your {0} account</value>
+  </data>
+  <data name="Account_MyAccount" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="Account_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Account_PasswordChangedSuccessfully" xml:space="preserve">
+    <value>Your password was changed successfully.</value>
+  </data>
+  <data name="Account_PasswordMinLength" xml:space="preserve">
+    <value>Password must be at least {0} characters long.</value>
+  </data>
+  <data name="Account_PasswordsDoNotMatch" xml:space="preserve">
+    <value>Passwords do not match.</value>
+  </data>
+  <data name="Account_Pending" xml:space="preserve">
+    <value>Your account is pending activation. An email has been sent to you.</value>
+  </data>
+  <data name="Account_PublicProfile" xml:space="preserve">
+    <value>Public Profile</value>
+  </data>
+  <data name="Account_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Account_RememberMe" xml:space="preserve">
+    <value>Remember Me</value>
+  </data>
+  <data name="Account_ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Account_ResetPasswordEmailSent" xml:space="preserve">
+    <value>Your password has been reset. An email was sent to you.</value>
+  </data>
+  <data name="Account_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Account_SavedSuccessfully" xml:space="preserve">
+    <value>Your account was saved successfully.</value>
+  </data>
+  <data name="Account_SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="Account_SignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="Account_UserAlreadyExists" xml:space="preserve">
+    <value>User already exists</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_CacheFlushedMessage" xml:space="preserve">
+    <value>The application cache has been cleared.</value>
+  </data>
+  <data name="Admin_ContentManagement" xml:space="preserve">
+    <value>Content Management</value>
+  </data>
+  <data name="Admin_ErrorLog" xml:space="preserve">
+    <value>Error Log</value>
+  </data>
+  <data name="Admin_SiteAdministration" xml:space="preserve">
+    <value>Site Administration</value>
+  </data>
+  <data name="Admin_SiteManagement" xml:space="preserve">
+    <value>Site Management</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Blog_Export" xml:space="preserve">
+    <value>Export Blog</value>
+  </data>
+  <data name="Blog_Import" xml:space="preserve">
+    <value>Import Blog</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Category_ConfirmDeleteFormatString" xml:space="preserve">
+    <value>Are you sure you want to delete the category titled "{0}"?</value>
+  </data>
+  <data name="Category_Create" xml:space="preserve">
+    <value>Create Category</value>
+  </data>
+  <data name="Category_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Category_Edit" xml:space="preserve">
+    <value>Edit Category</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="CommentStatus_Any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="CommentStatus_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="CommentStatus_Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="Comments_AreDisabled" xml:space="preserve">
+    <value>Sorry, comments are disabled.</value>
+  </data>
+  <data name="Comment_ConfirmDeleteString" xml:space="preserve">
+    <value>Are you sure you want to delete this comment?</value>
+  </data>
+  <data name="Comment_Flag" xml:space="preserve">
+    <value>Flag comment</value>
+  </data>
+  <data name="Comment_FlaggedMessage" xml:space="preserve">
+    <value>The administrator has been notified.</value>
+  </data>
+  <data name="Comment_Moderate" xml:space="preserve">
+    <value>Moderate Comments</value>
+  </data>
+  <data name="Comment_PendingModeration" xml:space="preserve">
+    <value>Your comment has been submitted and is awaiting moderation.</value>
+  </data>
+  <data name="Comment_Submitted" xml:space="preserve">
+    <value>Your comment has been submitted. Thanks for your feedback!</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Contact_EmailSentSucessfully" xml:space="preserve">
+    <value>Thank you. The message was sent.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="Page_ConfirmDeleteFormatString" xml:space="preserve">
+    <value>Are you sure you want to delete the page titled "{0}"?</value>
+  </data>
+  <data name="Page_Create" xml:space="preserve">
+    <value>Create Page</value>
+  </data>
+  <data name="Page_Edit" xml:space="preserve">
+    <value>Edit Page</value>
+  </data>
+  <data name="Page_SavedSuccessfully" xml:space="preserve">
+    <value>The page was saved successfully.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Posts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="Post_AreCommentsEnabled" xml:space="preserve">
+    <value>Are comments enabled</value>
+  </data>
+  <data name="Post_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Post_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Post_ConfirmDeleteFormatString" xml:space="preserve">
+    <value>Are you sure you want to delete the post titled "{0}"?</value>
+  </data>
+  <data name="Post_CreateTitle" xml:space="preserve">
+    <value>Create Post</value>
+  </data>
+  <data name="Post_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Post_Edit" xml:space="preserve">
+    <value>Edit Post</value>
+  </data>
+  <data name="Post_EditTitle" xml:space="preserve">
+    <value>Edit Post</value>
+  </data>
+  <data name="Post_ExtractSlugLinkText" xml:space="preserve">
+    <value>Extract from title</value>
+  </data>
+  <data name="Post_Featured" xml:space="preserve">
+    <value>Featured</value>
+  </data>
+  <data name="Post_Flag" xml:space="preserve">
+    <value>Flag post</value>
+  </data>
+  <data name="Post_Flagged_Message" xml:space="preserve">
+    <value>The post has been flagged and the administrator has been notified.</value>
+  </data>
+  <data name="Post_LastModified" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="Post_NotRatedYet" xml:space="preserve">
+    <value>Be the first to rate this post.</value>
+  </data>
+  <data name="Post_PublishDate" xml:space="preserve">
+    <value>Publish Date</value>
+  </data>
+  <data name="Post_Published" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="Post_SavedSuccessfully" xml:space="preserve">
+    <value>The post was saved successfully.</value>
+  </data>
+  <data name="Post_Slug" xml:space="preserve">
+    <value>Slug</value>
+  </data>
+  <data name="Post_StarRatingClickToVote" xml:space="preserve">
+    <value>Click to cast vote.</value>
+  </data>
+  <data name="Post_StarRatingLoginToVote" xml:space="preserve">
+    <value>You must login to vote.</value>
+  </data>
+  <data name="Post_StarRatingText" xml:space="preserve">
+    <value>Currently rated {0:f2} by {1} people</value>
+  </data>
+  <data name="Post_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Post_UploadLinkText" xml:space="preserve">
+    <value>Upload image or file</value>
+  </data>
+  <data name="Post_UseRawHTMLEditor" xml:space="preserve">
+    <value>Use Raw HTML Editor</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Property_CreateTitle" xml:space="preserve">
+    <value>Create Property</value>
+  </data>
+  <data name="Property_Delete" xml:space="preserve">
+    <value>Are you sure you want to delete the property titled "{0}"?</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Search_ResultsFor" xml:space="preserve">
+    <value>Search Results For</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_AdminEmailAddress" xml:space="preserve">
+    <value>Admin Email Address</value>
+  </data>
+  <data name="Settings_AllowAnonymousComments" xml:space="preserve">
+    <value>Allow Anonymous Comments</value>
+  </data>
+  <data name="Settings_AllowAnonymousRatings" xml:space="preserve">
+    <value>Allow Anonymous Ratings</value>
+  </data>
+  <data name="Settings_AllowOpenRegistration" xml:space="preserve">
+    <value>Allow Open Registration</value>
+  </data>
+  <data name="Settings_AreCommentsEnabled" xml:space="preserve">
+    <value>Are Comments Enabled</value>
+  </data>
+  <data name="Settings_BlogMLDescription" xml:space="preserve">
+    <value>Import and export data using the BlogML format.</value>
+  </data>
+  <data name="Settings_CommentEmailSubjectPrefix" xml:space="preserve">
+    <value>Comment Email Subject Prefix</value>
+  </data>
+  <data name="Settings_DateFormat" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="Settings_Description" xml:space="preserve">
+    <value>Site Description</value>
+  </data>
+  <data name="Settings_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Settings_EnableSmtpAuthentication" xml:space="preserve">
+    <value>Enable SMTP Authentication</value>
+  </data>
+  <data name="Settings_FeedFormat" xml:space="preserve">
+    <value>Feed Format</value>
+  </data>
+  <data name="Settings_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_HostHeaderValues" xml:space="preserve">
+    <value>Host Headers</value>
+  </data>
+  <data name="Settings_HostHeaderValuesDescription" xml:space="preserve">
+    <value>Enter the host header names (one per line) that will be used for this site.</value>
+  </data>
+  <data name="Settings_Import" xml:space="preserve">
+    <value>BlogML</value>
+  </data>
+  <data name="Settings_MetaDescription" xml:space="preserve">
+    <value>Site Meta Description</value>
+  </data>
+  <data name="Settings_MetaKeywords" xml:space="preserve">
+    <value>Site Meta Keywords</value>
+  </data>
+  <data name="Settings_ModerateComments" xml:space="preserve">
+    <value>Moderate Comments</value>
+  </data>
+  <data name="Settings_Name" xml:space="preserve">
+    <value>Site Name</value>
+  </data>
+  <data name="Settings_Posts" xml:space="preserve">
+    <value>Posts</value>
+  </data>
+  <data name="Settings_PostsPerPage" xml:space="preserve">
+    <value>Posts Per Page</value>
+  </data>
+  <data name="Settings_PreviewTheme" xml:space="preserve">
+    <value>Preview Theme</value>
+  </data>
+  <data name="Settings_SavedSuccessfully" xml:space="preserve">
+    <value>The settings were saved successfully.</value>
+  </data>
+  <data name="Settings_SendCommentEmail" xml:space="preserve">
+    <value>Send Comment Email</value>
+  </data>
+  <data name="Settings_SmtpEnableSsl" xml:space="preserve">
+    <value>Enable SSL</value>
+  </data>
+  <data name="Settings_SmtpPassword" xml:space="preserve">
+    <value>SMTP Password</value>
+  </data>
+  <data name="Settings_SmtpPort" xml:space="preserve">
+    <value>SMTP Port</value>
+  </data>
+  <data name="Settings_SmtpServer" xml:space="preserve">
+    <value>SMTP Server</value>
+  </data>
+  <data name="Settings_SmtpUsername" xml:space="preserve">
+    <value>SMTP Username</value>
+  </data>
+  <data name="Settings_SocialNetworkingSupport" xml:space="preserve">
+    <value>Social Networking Support</value>
+  </data>
+  <data name="Settings_Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Settings_TrackingScript" xml:space="preserve">
+    <value>Tracking Script</value>
+  </data>
+  <data name="Settings_TrackingScriptDescription" xml:space="preserve">
+    <value>The JavaScript code from i.e. Google Analytics. Will be added in the bottom of each page regardless of the theme. (remember to add the &amp;lt;script&amp;gt; tags).</value>
+  </data>
+  <data name="Settings_TrackPostVisits" xml:space="preserve">
+    <value>Track Post Visits</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="Setup_AdminEmailLabel" xml:space="preserve">
+    <value>Email address of administrative account</value>
+  </data>
+  <data name="Setup_ConfirmPasswordLabel" xml:space="preserve">
+    <value>Confirm the password</value>
+  </data>
+  <data name="Setup_ConnectionStringLabel" xml:space="preserve">
+    <value>Connection String</value>
+  </data>
+  <data name="Setup_DataStorageLabel" xml:space="preserve">
+    <value>How would you like to store your data?</value>
+  </data>
+  <data name="Setup_Directions" xml:space="preserve">
+    <value>Please answer a few questions to configure your site.</value>
+  </data>
+  <data name="Setup_FinishText" xml:space="preserve">
+    <value>Finish Setup</value>
+  </data>
+  <data name="Setup_GetStarted" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="Setup_PasswordLabel" xml:space="preserve">
+    <value>Choose a password</value>
+  </data>
+  <data name="Setup_WebsiteDescriptionLabel" xml:space="preserve">
+    <value>Description of website</value>
+  </data>
+  <data name="Setup_WebsiteNameLabel" xml:space="preserve">
+    <value>What is the name of your website?</value>
+  </data>
+  <data name="Setup_WebsiteUrlLabel" xml:space="preserve">
+    <value>What is the url of your website?</value>
+  </data>
+  <data name="Setup_Welcome" xml:space="preserve">
+    <value>Welcome to Society Manager</value>
+  </data>
+  <data name="StorageOption_SqlCompact" xml:space="preserve">
+    <value>Use built-in data storage (SQL Server Compact)</value>
+  </data>
+  <data name="StorageOption_SqlServer" xml:space="preserve">
+    <value>Use an existing SQL Server (or SQL Express) database</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Tag_Create" xml:space="preserve">
+    <value>Create Tag</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Validation_InvalidEmail" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="Validation_InvalidUrl" xml:space="preserve">
+    <value>Invalid URL specified. </value>
+  </data>
+  <data name="Validation_NameAlreadyInUse" xml:space="preserve">
+    <value>The specified name is already in use. </value>
+  </data>
+  <data name="Validation_PermissionDenied" xml:space="preserve">
+    <value>Permission Denied.</value>
+  </data>
+  <data name="Validation_PleaseCorrectErrors" xml:space="preserve">
+    <value>Please correct the errors and try again.</value>
+  </data>
+  <data name="Vote_AlreadyVoted" xml:space="preserve">
+    <value>Sorry, you already voted.</value>
+  </data>
+  <data name="Vote_Casted" xml:space="preserve">
+    <value>Your vote was cast successfully.</value>
+  </data>
+  <data name="Vote_MustBeLoggedIn" xml:space="preserve">
+    <value>Sorry, you must be logged in to vote.</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Welcome_Post" xml:space="preserve">
+    <value>Congratulations, you've just configured your website. You can add more posts, pages and more by using the site administration link above.</value>
+  </data>
+</root>
